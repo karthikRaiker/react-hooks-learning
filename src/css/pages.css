@@ -1,0 +1,80 @@
+.Home,
+.UseStateCounter,
+.UseEffectExample,
+.UseContext,
+.UseReducerExample,
+.UseCallback,
+.UseMemo,
+.UseRef,
+.CustomHooks {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  position: relative;
+}
+.Home-Heading {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.Home-SubHeading {
+  position: absolute;
+  left: 18%;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  top: 80px;
+  background-color: #333;
+  z-index: 1;
+  padding: 0 1rem;
+}
+.Home-Container {
+  position: absolute;
+  left: 7%;
+  top: 70px;
+  border: 1px solid #ededed;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+.BackArrow {
+  font-size: 1.8rem;
+  color: white;
+}
+.Page-Heading {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.border-top {
+  padding-top: 1rem;
+  border-top: 1px solid #ededed;
+}
+.flex-column {
+  flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+  .Home-SubHeading {
+    left: 20%;
+  }
+  .Home-Container {
+    left: 7%;
+    width: 60%;
+  }
+}
